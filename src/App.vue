@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 import { ref } from 'vue'
 import Navbar from './components/NavBar.vue'
 import Cards from './components/Card-coff.vue'
