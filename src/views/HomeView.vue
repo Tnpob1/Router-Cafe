@@ -1,9 +1,15 @@
-<script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+<script setup>
+import Cards from '../components/Cafe-card.vue'
+import { RouterView } from 'vue-router'
+
+
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <Cards />
+  <RouterView />
 </template>
+
+<style scoped>
+
+</style>

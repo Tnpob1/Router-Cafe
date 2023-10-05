@@ -1,15 +1,13 @@
 <script setup>
-import { ref } from 'vue'
-import Navbar from './components/NavBar.vue'
-import Cards from './components/Card-coff.vue'
+import NavBar from './components/Nav-bar.vue';
+import { useRouter } from 'vue-router'
 
-//ตัวแปร
 
 </script>
 
 <template>
-  <Navbar />
-  <Cards />
+  <NavBar />
+  <RouterView />
 </template>
 
 <style scoped>
